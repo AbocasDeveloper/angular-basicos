@@ -1,0 +1,19 @@
+<h1>Dragon Ball Z</h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <!--
+            [personajes] - es de la clase hija - PersonajesComponent
+            personajes - es de la clase padre - MainComponent y hace la herencia de la lista
+        -->
+        <app-personajes>
+        </app-personajes>
+    </div>
+
+    <div class="col">
+        <app-agregar
+            [personaje]="personaje"
+        ></app-agregar>
+    </div>
+</div>
